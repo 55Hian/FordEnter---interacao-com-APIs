@@ -1,0 +1,19 @@
+{
+    "produtos": [
+
+        {
+            "id": 0,
+            "nome": "rodas"
+        },
+
+        {
+            "id": 1,
+            "nome": "Retrovisor"
+        },
+
+        {
+            "id": 2,
+            "nome": "Calota"
+        }
+    ]
+}
