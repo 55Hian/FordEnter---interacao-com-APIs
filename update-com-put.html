@@ -115,6 +115,8 @@
             if(event.target.closest('ul').classList.contains('produto')){
 
                 document.querySelector('#idProduto').value = event.target.closest('ul').querySelector('[data-produto="idProduto"]').innerHTML;
+                document.querySelector('#nomeProduto').value = event.target.closest('ul').querySelector('[data-produto="nomeProduto"]').innerHTML;
+                document.querySelector('#tipoProduto').value = event.target.closest('ul').querySelector('[data-produto="tipoProduto"]').innerHTML;
 
             }
         })
